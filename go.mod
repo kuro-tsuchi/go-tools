@@ -1,4 +1,4 @@
-module goTool
+module devTool
 
 go 1.17
 

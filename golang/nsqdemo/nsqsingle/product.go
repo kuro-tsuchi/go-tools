@@ -1,10 +1,11 @@
 package nsqsingle
 
 import (
+	"devTool/golang/nsqdemo"
 	"fmt"
-	"github.com/nsqio/go-nsq"
-	"goTool/example/nsqdemo"
 	"time"
+
+	"github.com/nsqio/go-nsq"
 )
 
 func Product() {
@@ -15,7 +16,7 @@ func Product() {
 		return
 	}
 
-	for i:=0 ; i<5 ; i++ {
+	for i := 0; i < 5; i++ {
 		message := "product message :" + time.Now().Format("2006-01-02 15:04:05")
 		//fmt.Println(message)
 		// 发送消息

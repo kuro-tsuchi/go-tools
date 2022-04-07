@@ -3,7 +3,6 @@ package nsqsingle
 import (
 	"fmt"
 	"github.com/nsqio/go-nsq"
-	"goTool/example/nsqdemo"
 	"log"
 )
 
@@ -28,7 +27,7 @@ func MyConsumers(topic, channel, addr string) {
 	//newConsumer.AddHandler(newHandler)
 
 	newConsumer.AddHandler(nsq.HandlerFunc(func(msg *nsq.Message) error {
-		fmt.Println( channel +" " +  string(msg.Body))
+		fmt.Println(channel + " " + string(msg.Body))
 		return nil
 	}))
 	err = newConsumer.ConnectToNSQD(addr)
