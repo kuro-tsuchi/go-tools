@@ -2,25 +2,29 @@ package main
 
 import (
 	"github.com/sirupsen/logrus"
-	"goTool/utils/xstrings"
+	"goTool/utils/redislock"
 )
 
 func main() {
 	// sql2go
-	//sql2gorm.MainExec(sql)
-	//toml2go
+	//sql2gorm.MainExec(test.SqlMock)
 
-	xstrings.MainExec()
+	//etcd
+	//etcddemo.Register()
+	//etcddemo.Discovery()
 
+	//nsq 单机
+	//nsqsingle.Product()
+	//nsqsingle.Consumer()
+
+	////nsq 集群
+	//nsqcluster.Product()
+	//nsqcluster.Consumer()
+
+	// 雪花算法
+	//snowflake.MainExec()
+	redislock.MainExec()
 }
-
-var sql = `CREATE TABLE person_info (
-	id BIGINT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL COMMENT 'primary id',
-	name VARCHAR(30) NOT NULL DEFAULT 'default_name',
-	created_at datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	age INT(11) unsigned NULL,
-	sex VARCHAR(2) NULL
-	);`
 
 func init() {
 	logrus.SetFormatter(&logrus.JSONFormatter{})
