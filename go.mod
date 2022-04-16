@@ -13,6 +13,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
 	go.etcd.io/etcd/client/v3 v3.5.2
+	gorm.io/gorm v1.23.1
 )
 
 require (
@@ -24,6 +25,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/jinzhu/now v1.1.4 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.2 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.2 // indirect
@@ -41,6 +43,8 @@ require (
 require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/juju/errors v0.0.0-20170703010042-c7d06af17c68 // indirect
+	github.com/lib/pq v1.10.5
 	github.com/pkg/errors v0.9.1
 	golang.org/x/text v0.3.6 // indirect
+	gorm.io/driver/mysql v1.3.3
 )

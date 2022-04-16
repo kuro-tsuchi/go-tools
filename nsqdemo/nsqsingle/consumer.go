@@ -1,9 +1,11 @@
 package nsqsingle
 
 import (
+	"devTool/golang/nsqdemo"
 	"fmt"
-	"github.com/nsqio/go-nsq"
 	"log"
+
+	"github.com/nsqio/go-nsq"
 )
 
 type NewHandler struct{}

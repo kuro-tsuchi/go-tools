@@ -1,9 +1,9 @@
 package sql2gorm
 
 import (
+	"devTool/utils/sql2gorm/parser"
 	"flag"
 	"fmt"
-	"goTool/utils/sql2gorm/parser"
 	"io"
 	"io/ioutil"
 	"os"

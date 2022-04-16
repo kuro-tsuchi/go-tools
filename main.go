@@ -1,8 +1,9 @@
 package main
 
 import (
+	"devTool/golang/pgsqldemo"
+
 	"github.com/sirupsen/logrus"
-	"goTool/utils/redislock"
 )
 
 func main() {
@@ -23,7 +24,12 @@ func main() {
 
 	// 雪花算法
 	//snowflake.MainExec()
-	redislock.MainExec()
+	// redislock.MainExec()
+
+	// gorm mysql
+	// gormdemo.MainExec()
+	// gorm pgsql
+	pgsqldemo.MainExec()
 }
 
 func init() {
