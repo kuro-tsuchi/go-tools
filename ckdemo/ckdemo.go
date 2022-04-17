@@ -37,33 +37,10 @@ func MainExec() {
 	}
 	//log.Infof("total number of orders: %d", count)
 
-	err = searchInfo()
-	sumInfo()
+	//err = searchInfo()
+	//sumInfo()
 
-	//sum(toDecimal32(money,2))
-	type tempData struct {
-		UserId int64           `json:"user_id"`
-		Vip    string          `json:"vip"`
-		Total  decimal.Decimal `json:"total"`
-	}
-
-	//var data []tempData
-	//err = db.Raw("SELECT user_id , vip, sum(money) total from order_info group by  user_id , vip").Find(&data).Error
-	rows, err := db.Model(info).Select("user_id , vip, sum(money) as total").Group("user_id , vip").Rows()
-	if err != nil {
-		log.Error(err.Error())
-	}
-	fmt.Println(rows)
-	dataList := make([]*tempData, 0)
-	for rows.Next() {
-		dest := &tempData{}
-		db.ScanRows(rows, dest)
-		//data := new(tempData)
-		//rows.Scan(&data.UserId, &data.Vip, &data.Total)
-		//dataList= append(dataList, data)
-		fmt.Println(dest.Total)
-	}
-	fmt.Printf("%#v", &dataList)
+	searchGroupByList()
 
 }
 
@@ -86,7 +63,7 @@ func sumInfo() {
 		}
 
 	}
-		fmt.Printf("total %v",  total)
+	fmt.Printf("total %v", total)
 }
 
 func searchInfo() error {
@@ -95,7 +72,7 @@ func searchInfo() error {
 		log.Error(err.Error())
 		return err
 	}
-	fmt.Printf("==================searchInfo:%#v\n", info.Money)
+	fmt.Printf("==================searchInfo:%#v\n", info)
 	return nil
 }
 
@@ -117,9 +94,23 @@ func initDB(db *gorm.DB) {
 }
 
 type OrderInfo struct {
-	Id     string  `json:"id"`
-	UserId int64   `json:"userId"`
-	Money  decimal.Decimal `json:"money" sql:"type:decimal(18,2);"`
-	Vip    string  `json:"vip"`
-	//CreateTime int64  `json:"create_time"`
+	Id     string          `json:"id"`
+	UserId int64           `json:"userId"`
+	Money  decimal.Decimal `json:"money" sql:"type:Decimal64(9,2);"`
+	Vip    string          `json:"vip"`
+}
+
+func searchGroupByList() {
+	type Result struct {
+		Vip   string
+		Total decimal.Decimal `json:"money" sql:"type:Decimal(9,2);"`
+	}
+	var result []Result
+	//var info []OrderInfo
+	if err := db.Model(&OrderInfo{}).Select("toDecimal64( sum(money),2) as total, vip").Group("vip").Find(&result).Error; err != nil {
+		log.Error(err.Error())
+		return
+	}
+
+	fmt.Printf("==================searchGroupByList:%v\n", result)
 }

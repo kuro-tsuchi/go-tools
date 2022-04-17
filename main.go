@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/sirupsen/logrus"
-	"goTool/mysqlDemo"
+	"goTool/ckdemo"
 )
 
 func main() {
@@ -30,8 +30,8 @@ func main() {
 	// gorm pgsql
 	//pgsqldemo.MainExec()
 
-	//ckdemo.MainExec()
-	mysqlDemo.MainExec()
+	ckdemo.MainExec()
+	//mysqlDemo.MainExec()
 }
 
 func init() {

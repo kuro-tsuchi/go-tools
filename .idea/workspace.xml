@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba71142b-bc42-43b1-a098-06d62299ec66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ckdemo/ckdemo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckdemo/doc/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckdemo/ckdemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/ckdemo/ckdemo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nsqdemo/nsqsingle/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsqdemo/nsqsingle/consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nsqdemo/nsqsingle/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsqdemo/nsqsingle/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/sql2gorm/sql2gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sql2gorm/sql2gorm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,14 +115,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/mysqlDemo/mysqlDemo.go</url>
-          <line>45</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/ckdemo/ckdemo.go</url>
+          <line>111</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/mysqlDemo/mysqlDemo.go</url>
-          <line>86</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/ckdemo/ckdemo.go</url>
+          <line>114</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -75,7 +75,7 @@ func MainExec() {
 func searchGroupByList() {
 	type Result struct {
 		Vip   string
-		Total int
+		Total decimal.Decimal
 	}
 	var result []Result
 	//var info []OrderInfo
