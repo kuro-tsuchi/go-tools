@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba71142b-bc42-43b1-a098-06d62299ec66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/default.etcd/member/snap/db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/default.etcd/member/wal/0.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/default.etcd/member/wal/0000000000000000-0000000000000000.wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/discovery.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/etcddemo/register.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/nsqcluster/consumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/nsqcluster/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/nsqsingle/consumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/nsqdemo/nsqsingle/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/testcase/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/testcase/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nsqd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nsqd.dat.2620490826723228836.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/sqlMock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topic-demo.diskqueue.meta.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topic-demo;channel-aa.diskqueue.meta.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topic-demo;channel-bb.diskqueue.meta.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/redislock/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/snowflake/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckdemo/ckdemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsqdemo/nsqsingle/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsqdemo/nsqsingle/consumer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsqdemo/nsqsingle/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsqdemo/nsqsingle/product.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sql2gorm/sql2gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sql2gorm/sql2gorm.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,6 +46,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -89,12 +71,14 @@
       <recent name="C:\workspace\golang\go-tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\go-tools\mysqlDemo" />
+      <recent name="C:\workspace\go-tools\ckdemo" />
       <recent name="C:\workspace\golang\go-tools\utils\snowflake" />
       <recent name="C:\workspace\golang\go-tools\example\nsqdemo\nsqsingle" />
       <recent name="C:\workspace\go-tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build goTool">
+  <component name="RunManager">
     <configuration name="go build goTool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tools" />
       <working_directory value="$PROJECT_DIR$" />
@@ -104,35 +88,9 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCompare in goTool/example/testcase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-tools" />
-      <working_directory value="$PROJECT_DIR$/example/testcase" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="goTool/example/testcase" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCompare\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestReverse in goTool/example/testcase" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-tools" />
-      <working_directory value="$PROJECT_DIR$/example/testcase" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="goTool/example/testcase" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestReverse\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build goTool" />
-        <item itemvalue="Go Test.TestReverse in goTool/example/testcase" />
-        <item itemvalue="Go Test.TestCompare in goTool/example/testcase" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +115,24 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mysqlDemo/mysqlDemo.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mysqlDemo/mysqlDemo.go</url>
+          <line>86</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

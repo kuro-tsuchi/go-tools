@@ -7,7 +7,7 @@ go install github.com/cosmtrek/air@latest
 air
 ```
 
-## 1.2. devTools
+## 1.2. goTools
 
 ### 1.2.1. sql2go
 

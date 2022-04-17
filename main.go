@@ -1,9 +1,8 @@
 package main
 
 import (
-	"devTool/golang/pgsqldemo"
-
 	"github.com/sirupsen/logrus"
+	"goTool/mysqlDemo"
 )
 
 func main() {
@@ -29,7 +28,10 @@ func main() {
 	// gorm mysql
 	// gormdemo.MainExec()
 	// gorm pgsql
-	pgsqldemo.MainExec()
+	//pgsqldemo.MainExec()
+
+	//ckdemo.MainExec()
+	mysqlDemo.MainExec()
 }
 
 func init() {

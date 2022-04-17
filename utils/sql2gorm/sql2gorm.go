@@ -1,7 +1,7 @@
 package sql2gorm
 
 import (
-	"devTool/utils/sql2gorm/parser"
+	"goTool/utils/sql2gorm/parser"
 	"flag"
 	"fmt"
 	"io"

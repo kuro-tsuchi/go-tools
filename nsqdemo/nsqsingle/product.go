@@ -1,7 +1,7 @@
 package nsqsingle
 
 import (
-	"devTool/golang/nsqdemo"
+	"goTool/nsqdemo"
 	"fmt"
 	"time"
 
