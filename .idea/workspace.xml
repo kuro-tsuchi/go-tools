@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba71142b-bc42-43b1-a098-06d62299ec66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ckdemo/doc/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/api/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/api/create_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/api/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/api/select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/db/mysqldb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/modules/fakerSchema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/modules/module.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/modules/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormdemo/modules/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/array_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/call.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/call_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/constant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/convert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/cron.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/cron_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/debug.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/debug_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/encrypt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/encrypt_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/example.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/examplevariable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/file_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/float.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/float_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/hash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/hash_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/int_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/json_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/os.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/os_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/structure.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/time_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/uri.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/uri_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/uuid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/uuid_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/validate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckdemo/ckdemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/ckdemo/ckdemo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gormdemo/main.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" afterDir="false" />
     </list>
@@ -33,8 +88,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/huandu/xstrings@v1.3.2/translate.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Go/src/time/zoneinfo.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Go/src/math/rand/rand.go" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/go/pkg/mod/github.com/nsqio/go-nsq@v1.1.0/consumer.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/google/uuid@v1.1.2/version1.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/gorm.io/gorm@v1.23.1/migrator.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/shopspring/decimal@v1.3.1/decimal.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Go/src/time/time.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/gorm.io/gorm@v1.23.1/schema/schema.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/gorm.io/gorm@v1.23.1/finisher_api.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/gorm.io/gorm@v1.23.1/gorm.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/huandu/xstrings@v1.3.2/translate.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/gorm.io/gorm@v1.23.1/schema/naming.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Go/src/time/format.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="27BHEAGBVoSYrt9tLZrNxQrzSnA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,45 +113,103 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\golang\go-tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\go-tools\gormdemo\db" />
+      <recent name="C:\workspace\go-tools\gormdemo\api" />
+      <recent name="$PROJECT_DIR$/gormdemo/db" />
+      <recent name="$PROJECT_DIR$/gormdemo/api" />
       <recent name="C:\workspace\go-tools\mysqlDemo" />
-      <recent name="C:\workspace\go-tools\ckdemo" />
-      <recent name="C:\workspace\golang\go-tools\utils\snowflake" />
-      <recent name="C:\workspace\golang\go-tools\example\nsqdemo\nsqsingle" />
-      <recent name="C:\workspace\go-tools" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="go build goTool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestFirst in goTool/gormdemo/api">
+    <configuration name="TestCreate in goTool/gormdemo/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-tools" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/gormdemo/api" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="goTool" />
+      <package value="goTool/gormdemo/api" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCreate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCreateInBatches in goTool/gormdemo/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-tools" />
+      <working_directory value="$PROJECT_DIR$/gormdemo/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="goTool/gormdemo/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCreateInBatches\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFirst in goTool/gormdemo/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-tools" />
+      <working_directory value="$PROJECT_DIR$/gormdemo/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="goTool/gormdemo/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFirst\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLast in goTool/gormdemo/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-tools" />
+      <working_directory value="$PROJECT_DIR$/gormdemo/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="goTool/gormdemo/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLast\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTake in goTool/gormdemo/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-tools" />
+      <working_directory value="$PROJECT_DIR$/gormdemo/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="goTool/gormdemo/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestTake\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build goTool" />
+        <item itemvalue="Go Test.TestFirst in goTool/gormdemo/api" />
+        <item itemvalue="Go Test.TestCreateInBatches in goTool/gormdemo/api" />
+        <item itemvalue="Go Test.TestCreate in goTool/gormdemo/api" />
+        <item itemvalue="Go Test.TestTake in goTool/gormdemo/api" />
+        <item itemvalue="Go Test.TestLast in goTool/gormdemo/api" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +247,11 @@
           <url>file://$PROJECT_DIR$/ckdemo/ckdemo.go</url>
           <line>114</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../Program Files/Go/src/time/zoneinfo.go</url>
+          <line>655</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -165,3 +165,4 @@ type OrderInfo struct {
 	Vip    string          `json:"vip"`
 	//CreateTime int64  `json:"create_time"`
 }
+

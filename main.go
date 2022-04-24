@@ -1,8 +1,9 @@
 package main
 
 import (
+	"goTool/gormdemo"
+
 	"github.com/sirupsen/logrus"
-	"goTool/ckdemo"
 )
 
 func main() {
@@ -26,11 +27,12 @@ func main() {
 	// redislock.MainExec()
 
 	// gorm mysql
-	// gormdemo.MainExec()
+
+	gormdemo.MainExec()
 	// gorm pgsql
 	//pgsqldemo.MainExec()
 
-	ckdemo.MainExec()
+	// ckdemo.MainExec()
 	//mysqlDemo.MainExec()
 }
 
