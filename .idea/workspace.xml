@@ -5,63 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba71142b-bc42-43b1-a098-06d62299ec66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gormdemo/api/create.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/api/create_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/api/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/api/select_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/db/mysqldb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/modules/fakerSchema.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/modules/module.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/modules/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gormdemo/modules/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/array_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/call.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/call_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/convert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/convert_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/cron.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/cron_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/debug.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/debug_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/encrypt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/encrypt_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/example.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/examplevariable.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/file_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/float.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/float_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/hash.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/hash_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/helper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/int.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/int_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/json_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/os.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/os_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/string_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/structure.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/time_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/uri.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/uri_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/uuid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/uuid_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/validate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/variable.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gormdemo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlDemo/mysqlDemo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
